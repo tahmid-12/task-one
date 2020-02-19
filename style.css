@@ -17,7 +17,7 @@
 }
 .build{
     margin-top: 15px; 
-    height: 600px; 
+    height: 500px; 
     width: 1000px;
     margin-left: 45px;
 }
@@ -28,4 +28,9 @@
 .b2{
     height: 25px;
     margin-left: 350px;
+}
+.netflix{
+    height: 50px;
+    width: 300px;
+    background-color: red;
 }
