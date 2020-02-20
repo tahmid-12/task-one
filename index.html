@@ -14,28 +14,28 @@
     <title>A Web Page</title>
   </head>
   <body>
+    <!--digg and Schedule a call button-->
+    <div class="digg" style="margin-top: 5px;">
+      <div class="card-body">
+          <span style="font-family: 'Anton', sans-serif; font-size: 25px;">
+              digg
+          </span>
+          <!--Button-->
+          <div class="btn-group schedule-btn" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-default">Schedule a Call</button>
+          </div>
+      </div>
+  </div>
+
+     <br>
 
     <div class="container">
 
-             <!--digg and Schedule a call button-->
-            <div class="card" style="margin-top: 5px;">
-                <div class="card-body">
-                    <span style="font-family: 'Anton', sans-serif; font-size: 25px;">
-                        digg
-                    </span>
-                    <!--Button-->
-                    <div class="btn-group schedule-btn" role="group" aria-label="Basic example" style="">
-                        <button type="button" class="btn btn-default">Schedule a Call</button>
-                    </div>
-                </div>
-            </div>
-
-            <br>
             <!--Header-->
             <h1 class="header text-center">Welcome to Impulse Media where your ideas come to life</h1>
 
-            <!--Image Card-->
-            <div class="card image-card">
+            <!--Image Box-->
+            <div class="image-box">
 
             </div>
 
@@ -43,42 +43,79 @@
             <h2 class="text-center header2">What would you like to build?</h2>
 
            
-          <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mobile App</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Web Solution</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Marketplace</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ecommerce</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Automation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Something Else</a>
-            </li>
-          </ul>
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist" style="margin-bottom: -15px;">
+        <li class="nav-item">
+                <a class="nav-link" id="home-tab" data-toggle="tab" href="#mob_app" role="tab" aria-controls="home" aria-selected="false">Mobile App</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#web_solution" role="tab" aria-controls="profile" aria-selected="true">Web Solution</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#marketplace" role="tab" aria-controls="contact" aria-selected="false">Marketplace</a>
+        </li>
+			  <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#ecommerce" role="tab" aria-controls="contact" aria-selected="false">Ecommerce</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#automation" role="tab" aria-controls="contact" aria-selected="false">Automation</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#sth_else" role="tab" aria-controls="contact" aria-selected="false">Something Else</a>
+        </li>
+      </ul>
+         
 
-            <!--Netflix Card-->
-            <div class="card build">
-              <!--Another header-->
-              <div class="row">
-                <h2 class="text-left header2 ml-5" style="">Which of the most following apps resembles your idea?</h2>
-                <!--Button-->
-                 <button type="button" class="btn btn-default" style="margin-left: 900px; margin-top: -25px;">View All</button>
-              </div>
-              <br>
-              <p class="text-left app" style="margin-top: -5px;">Give us a better idea about your app</p>
+            <!--Netflix Card--> 
+            <div class="box">
+                <!--Another header-->
+                <div class="row">
+                  <h2 class="text-left header2 ml-5">Which of the most following apps resembles your idea?</h2>
+                  <br>
+                  <!--Button-->
+                  <button type="button" id="view" class="btn btn-default" style="margin-left: 900px; margin-top: -25px;">View All</button>
+                </div>
+                <br>
+                  <p class="text-left app" style="margin-top: -5px;">Give us a better idea about your app</p>
 
-              <br>
-
-              <div class="card" style="margin-left: 45px; width: 255px;">
-
+                <br>
+                <!--Card Start-->
+                <div class="row">
+                <!--1st Card-->
+                <div class="card" id="netflix" style="margin-left: 50px; width: 250px;">
+                    <div class="card-body">
+                          <h5>Netflix</h5>
+                        <br>
+                          <p class="host">
+                            Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                            and made available at once for binge-watching, or released at specific times.
+                          </p>
+                      
+                        <br>
+                          <!--Round Check Box-->
+                          <div class="round">
+                              <input type="radio" class="big" id="checkbox" />
+                          </div>
+                    </div>
+                 </div>
+                 <!--2nd Card-->
+                <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+                  <div class="card-body">
+                        <h5>Netflix</h5>
+                      <br>
+                        <p class="host">
+                          Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                          and made available at once for binge-watching, or released at specific times.
+                        </p>
+                    
+                      <br>
+                        <!--Round Check Box-->
+                        <div class="round">
+                          <input type="radio" class="big" id="checkbox" />
+                      </div>
+                  </div>
+               </div>
+               <!--3rd Card-->
+               <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
                 <div class="card-body">
                       <h5>Netflix</h5>
                     <br>
@@ -86,19 +123,192 @@
                         Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
                         and made available at once for binge-watching, or released at specific times.
                       </p>
-                   
+                  
                     <br>
                       <!--Round Check Box-->
                       <div class="round">
-                          <input type="checkbox" id="checkbox" />
-                          <label for="checkbox"></label>
-                      </div>
-                 
+                        <input type="radio" class="big" id="checkbox" />
+                    </div>
                 </div>
-
+             </div>
+             <!--4th Card-->
+             <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+              <div class="card-body">
+                    <h5>Netflix</h5>
+                  <br>
+                    <p class="host">
+                      Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                      and made available at once for binge-watching, or released at specific times.
+                    </p>
+                
+                  <br>
+                    <!--Round Check Box-->
+                    <div class="round">
+                      <input type="radio" class="big" id="checkbox" />
+                  </div>
+              </div>
+           </div>
               </div>
 
+              <br>
+
+            <div class="row">
+              <!--1st Card-->
+              <div class="card" id="netflix" style="margin-left: 50px; width: 250px;">
+                  <div class="card-body">
+                        <h5>Netflix</h5>
+                      <br>
+                        <p class="host">
+                          Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                          and made available at once for binge-watching, or released at specific times.
+                        </p>
+                    
+                      <br>
+                        <!--Round Check Box-->
+                        <div class="round">
+                          <input type="radio" class="big" id="checkbox" />
+                      </div>
+                  </div>
+               </div>
+               <!--2nd Card-->
+              <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+                <div class="card-body">
+                      <h5>Netflix</h5>
+                    <br>
+                      <p class="host">
+                        Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                        and made available at once for binge-watching, or released at specific times.
+                      </p>
+                  
+                    <br>
+                      <!--Round Check Box-->
+                      <div class="round">
+                        <input type="radio" class="big" id="checkbox" />
+                    </div>
+                </div>
+             </div>
+             <!--3rd Card-->
+             <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+              <div class="card-body">
+                    <h5>Netflix</h5>
+                  <br>
+                    <p class="host">
+                      Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                      and made available at once for binge-watching, or released at specific times.
+                    </p>
+                
+                  <br>
+                    <!--Round Check Box-->
+                    <div class="round">
+                      <input type="radio" class="big" id="checkbox" />
+                  </div>
+              </div>
+           </div>
+           <!--4th Card-->
+           <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+            <div class="card-body">
+                  <h5>Netflix</h5>
+                <br>
+                  <p class="host">
+                    Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                    and made available at once for binge-watching, or released at specific times.
+                  </p>
+              
+                <br>
+                  <!--Round Check Box-->
+                  <div class="round">
+                    <input type="radio" class="big" id="checkbox" />
+                </div>
             </div>
+         </div>
+            </div>
+
+            </div>
+
+            <br>
+             <!--Amazon-->
+            <div class="box-building">
+              
+                <h2 class="text-left header2" style="margin-left: 50px; margin-top: 20px;">What most of our customers are thinking about building?</h2>  
+                 <br>
+                <p class="text-left" style="margin-left: 50px; margin-top: -15px;">The Top trends for apps in the region</p>
+                 <br>
+
+                 <div class="row">
+                   <!--1st Card-->
+                  <div class="card" id="netflix" style="margin-left: 30px; width: 250px;">
+                    <div class="card-body">
+                          <h5>Amazon</h5>
+                        <br>
+                          <p class="host">
+                            Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                            and made available at once for binge-watching, or released at specific times.
+                          </p>
+                      
+                        <br>
+
+                        <button class="build_this">Build This</button>
+                        <p class="" style="margin-top: 5px; width: 80px; font-size: 6px;">312 people building this</p>
+                          
+                    </div>
+                  </div>
+                  <!--2nd Card-->
+                  <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+                    <div class="card-body">
+                          <h5>Amazon</h5>
+                        <br>
+                          <p class="host">
+                            Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                            and made available at once for binge-watching, or released at specific times.
+                          </p>
+                      
+                        <br>
+                        <button class="build_this">Build This</button>
+                        <p class="" style="margin-top: 5px; width: 80px; font-size: 6px;">312 people building this</p>
+                          
+                    </div>
+                  </div>
+                  <!--3rd Card-->
+                  <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+                    <div class="card-body">
+                          <h5>Amazon</h5>
+                        <br>
+                          <p class="host">
+                            Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                            and made available at once for binge-watching, or released at specific times.
+                          </p>
+                      
+                        <br>
+
+                        <button class="build_this">Build This</button>
+                        <p class="" style="margin-top: 5px; width: 80px; font-size: 6px;">312 people building this</p>
+                          
+                    </div>
+                  </div>
+                  <!--4th Card-->
+                  <div class="card" id="netflix" style="margin-left: 10px; width: 250px;">
+                    <div class="card-body">
+                          <h5>Amazon</h5>
+                        <br>
+                          <p class="host">
+                            Host and broadcast television series, one-off episodes, and movies to subscribers. Shows can be streamed on-demand
+                            and made available at once for binge-watching, or released at specific times.
+                          </p>
+                      
+                        <br>
+                        <button class="build_this">Build This</button>
+                        <p class="" style="margin-top: 5px; width: 80px; font-size: 6px;">312 people building this</p>
+                          
+                    </div>
+                  </div>
+
+                 </div>
+
+            </div>
+            
+
+          </div>
+
 
      </div>
     <!-- Optional JavaScript -->
@@ -110,5 +320,7 @@
     
     <!--External Javascript File-->
     <script src="js/main.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </body>
 </html>
