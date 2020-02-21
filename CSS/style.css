@@ -1,38 +1,64 @@
 /*index and page*/
 .digg{
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid black;
   box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  margin-top: 5px;
 }
 .schedule-btn{
-    margin-bottom: 8px; 
-    margin-left: 1110px;
+    float: right;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
 .header{
     font-size: 20px;
     font-weight: 700;
 }
-.container{
-  display: flex;/*
-  background-color: blue;*/
-  flex-direction: column;
-}
+
 .image-box{
-    margin-top: 15px; 
-    height: 100px; 
-    width: 1200px;
-    margin-left: -30px;
-    border: 1px solid black;
-    box-sizing: border-box;
+    height: 100px;
+    width: 850px;
+    margin-left: 130px;
+    border: 2px solid black;
 }
-.box{
-  width: 1200px;
+
+/*What would you like to build? from index.html*/
+.header2{
+  font-size: 20px;
+}
+
+.box1{
+  width: 1110px;
   height: 700px;
-  border: 1px solid black;
+  border: 2px solid black;
   box-sizing: border-box;
-  margin-left: -30px;
-  margin-top: -10px;
+  margin-right: 10px;
 }
+/*Which of the most following apps resembles your idea? class from index.html*/
+.header1{
+  font-size: 20px;
+  margin-top: 10px;
+}
+/*View All button class CSS index.html*/
+.view{
+  float: right;
+  margin-left: 430px;
+  margin-top: 10px;
+}
+/*Give us a better idea about your app*/
+.app{
+  font-size: 15px;
+  padding-left: 45px;
+  padding-bottom: 2px;
+}
+/*
+
 .amazon{
   width: 1200px;
   height: 400px;
@@ -40,9 +66,6 @@
   box-sizing: border-box;
   margin-left: -30px;
   margin-top: -10px;
-}
-.header2{
-    font-size: 20px;
 }
 .build{
     margin-top: 15px; 
@@ -66,8 +89,6 @@
   margin-left: 15px;
   margin-top: 17px;
 }
-}
-
   .box-building{
     width: 1100px;
     height: 450px;
@@ -79,9 +100,7 @@
 
   .big{ 
     width: 2.5em; 
-    height: 2.5em;/*
-    padding-bottom: 40px;
-    */
+    height: 2.5em;
     margin-top: 5px; 
   }
 
@@ -89,4 +108,49 @@
     width: 95px;
     margin-bottom: -20px;;
   }
+  */
+
+  /*Media Queries*/
+
+
+  /*Mobile Device*/
+  @media screen and (max-width: 480px){
+
+    .digg{
+      width: 100%;
+      height: 70px;
+    }
+    .header{
+      font-size: 20px;
+      padding-right: 20px;
+    }
+    .image-box{ 
+      margin-left: 1px;
+      width: 100%;
+    }
+    
+  .nav-tabs{
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+  }
+  .box1{
+    width: 100%;
+  }
+
+  .header1{
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  .view{
+    display: none;
+  }
+  .app{
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  }
+
+  
   
