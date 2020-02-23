@@ -8,59 +8,62 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--External Stylesheet-->
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
      <!--Anton Font-->
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <title>Web Page2</title>
   </head>
   <body>
 
-    <div class="col-md-12 box">
-        <span style="font-family: 'Anton', sans-serif; font-size: 25px; margin-left: 40px; margin-top: 5px;">
-            digg
-        </span>
-        <div class="btn-group schedule-btn" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-default">Schedule a Call</button>
-        </div>
-    </div>
-    
-     <!--Searchbar and Feature start-->
-    <div class="row" style=" width: 1370px; background-color: gainsboro;">
-         <div class="col-md-4" style="float: left; height: 60px;">
-             <!--Searchbar Start-->
-            <div class="row" style="margin-left: 20px; margin-top: 10px;">
-               <span class="input-group-text" id="basic-text1"><i class="fas fa-search text-white"
-                    aria-hidden="true"></i></span>
-                <input type="text" class="form-control" placeholder="Search for features" style="width: 250px; margin-left: -1px;"> 
-                <!--Custom Feature Button
-                <button style="border-radius: 15px; margin-left: 15px; background-color: black; color: white;">Custom Feature</button>
-                -->
+        <!--digg and Schedule a call button start-->
+            <div class="digg">
+                <h2 class="header">digg</h2>
+                <!--Button-->
+                <div class="btn-group schedule-btn" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-default">Schedule a Call</button>
+                </div>
             </div>
-              <!--Searchbar Finish-->
-         </div>
-         
-        <div class="col-md-4" style="height: 5px;">
-                 <!--Empty -->
-        </div>
-        <div class="col-md-4" style="height: 5px;">
-             <!---->
-             <div class="row">
-                 <p style="color: white; margin-top: 15px;">2/21</p>
-                 <i class="fas fa-shopping-cart fa-2x" style="margin-top: 13px; margin-left: 4px;"></i>
-                 <p style="color: black; margin-top: 13px; margin-left: 7px; font-size: 22px;">Features Selected</p>
-                 <p style="color: black; margin-top: 13px; margin-left: 10px; font-size: 22px;">Remove All</p>
-             </div>
-             <!---->
-        </div>
-    </div>
-    <!--Searchbar and Feature finish-->
+        <!--digg and Schedule a call button finish-->
 
+
+    <!--Searchbar and Feature start-->
+    <div class="row box4">
+        <div class="col-md-4">
+            <!--Searchbar Start-->
+           <div class="row search">
+              <span class="input-group-text" id="basic-text1"><i class="fas fa-search text-white"
+                   aria-hidden="true"></i></span>
+               <input type="text" class="form-control feature" placeholder="Search for features"> 
+               
+           </div>
+             <!--Searchbar Finish-->
+        </div>
+        
+       <div class="col-md-4">
+                <!--Empty -->
+       </div>
+       <div class="col-md-4">
+            <!---->
+            <div class="row">
+                <p style="color: white; margin-top: 15px;">2/21</p>
+                <i class="fas fa-shopping-cart fa-2x"></i>
+                <p class="texts">Features Selected</p>
+                <p class="texts">Remove All</p>
+            </div>
+            <!---->
+       </div>
+   </div>
+   <!--Searchbar and Feature finish-->
+
+   <br>
+
+    
     <!--Features and Email Column Start-->
     <div class="row">
         <div class="col-md-3" style="height: 7px;">
              <div class="col" style="margin-left: -15px;">
                 <!--Features Start-->
-                <div class="card">
+                <div class="card" style="height: 70px;">
                     <div class="card-body">
                         <div class="row">
                             <h6>Features(2/21)</h6>
@@ -71,7 +74,7 @@
                 <!--Features Finish-->
 
                 <!--1-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -84,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox" checked/>
                             </div>
                         </div>
                     </div>
@@ -92,7 +95,7 @@
                 <!--1-->
 
                 <!--2-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -105,7 +108,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox"/>
                             </div>
                         </div>
                     </div>
@@ -113,7 +116,7 @@
                 <!--2-->
 
                 <!--3-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -126,7 +129,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox"/>
                             </div>
                         </div>
                     </div>
@@ -134,7 +137,7 @@
                 <!--3-->
 
                 <!--4-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -147,7 +150,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox"/>
                             </div>
                         </div>
                     </div>
@@ -155,7 +158,7 @@
                 <!--4-->
 
                 <!--5-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -168,7 +171,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox"/>
                             </div>
                         </div>
                     </div>
@@ -176,7 +179,7 @@
                 <!--5-->
 
                 <!--6-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -189,7 +192,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox"/>
                             </div>
                         </div>
                     </div>
@@ -197,7 +200,7 @@
                 <!--6-->
 
                 <!--7-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
@@ -210,7 +213,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox"/>
                             </div>
                         </div>
                     </div>
@@ -218,7 +221,7 @@
                 <!--7-->
 
                 <!--8-->
-                <div class="card" style="height: 100px;">
+                <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-2">
@@ -230,7 +233,7 @@
                                 </div>
                             </div>
                             <div class="col-md-3"> 
-                              <input type="radio" class="big" id="checkbox" style="margin-right: 20px;"/>
+                              <input type="radio" class="rad" id="checkbox" style="margin-right: 20px;"/>
                             </div>
                         </div>
                     </div>
@@ -240,9 +243,9 @@
         </div>
 
         <!---->
-        <div class="col-md-9" style="height: 7px;">
+        <div class="col-md-9">
               <!--Email Login Start-->
-              <div class="card" style="width: 1032px; height: 100px; margin-left: -30px;">
+              <div class="card email-card">
                 <div class="card-body">
                     <h6>Email Login - (1 day)</h6>
                     <br>
@@ -252,19 +255,14 @@
               <!--Email Login Start-->
               <br>
              
-              <div class="box" style="width: 1030px; height: 768px;margin-left: -28px; margin-top: -22px; background-color: gainsboro;">
+              <div class="box5" style="">
 
                 <div class="row">
 
                   
-                        <div style="height: 550px; 
-                                    width: 150px; 
-                                    background-color: white; 
-                                    margin-left: 120px; 
-                                    margin-top: 100px;
-                                    border: 1px solid black; 
-                                    box-sizing: border-box;">
-                             <p style="margin-left: 5px;">
+                        <div class="dashboard" style="">
+                            
+                           <p style="margin-left: 5px;">
                                  Dashboard
                                  <br>
                                  Orders
@@ -394,51 +392,48 @@
         <!---->
     </div>
     <!--Features and Email Column Finish-->
-    <br>
 
-    <div class="row col-md-12" style="margin-top: 837px; 
-    height: 100px;
-    width: 1400px;
-    border: 1px solid black; 
-    box-sizing: border-box;
-    margin-left: -1px;">
+      
+<br>
 
-        <div class="col-md-2">
-            <h6 style="margin-left: 30px; margin-top: 20px;">Installment</h6>
-            <br>
-            <h6 style="margin-left: 30px; margin-top: -25px;">$1000 / Week</h6>
+<div class="row col-md-12 install">
+
+    <div class="col-md-2">
+        <h6 style="margin-left: 30px; margin-top: 20px;">Installment</h6>
+        <br>
+        <h6 style="margin-left: 30px; margin-top: -25px;">$1000 / Week</h6>
+    </div>
+
+    <div class="col-md-1">
+        <h6 style="margin-left: 10px; margin-top: 20px;">Duration</h6>
+        <br>
+        <h6 style="margin-left: 10px; margin-top: -25px;">23 weeks</h6>
+    </div>
+
+    <div class="col-md-2">
+        <h6 style="margin-left: 10px; margin-top: 20px;">Max Price</h6>
+        <br>
+        <h6 style="margin-left: 10px; margin-top: -25px;">$21,876.00</h6>
+    </div>
+
+    <div class="col-md-4">
+        <h6 style="margin-left: 10px; margin-top: 20px;margin-bottom: -10px;">Enter Promo Code</h6>
+        <br>
+        <div class="row">
+            <input type="text" id="" name="fname" style="margin-left: 12px;">
+            <a href="" style="margin-left: 30px;">Apply Promo</a>
         </div>
+    </div>
 
-        <div class="col-md-1">
-            <h6 style="margin-left: 10px; margin-top: 20px;">Duration</h6>
-            <br>
-            <h6 style="margin-left: 10px; margin-top: -25px;">23 weeks</h6>
-        </div>
-
-        <div class="col-md-2">
-            <h6 style="margin-left: 10px; margin-top: 20px;">Max Price</h6>
-            <br>
-            <h6 style="margin-left: 10px; margin-top: -25px;">$21,876.00</h6>
-        </div>
-
-        <div class="col-md-4">
-            <h6 style="margin-left: 10px; margin-top: 20px;margin-bottom: -10px;">Enter Promo Code</h6>
-            <br>
-            <div class="row">
-                <input type="text" id="" name="fname" style="margin-left: 12px;">
-                <a href="" style="margin-left: 30px;">Apply Promo</a>
-            </div>
-        </div>
-
-        <div class="col-md-1">
-
-        </div>
-
-        <div class="col-md-2">
-            <button style="border-radius: 15px; margin-top: 35px; margin-left: 15px; background-color: red; color: white;">Custom Feature</button>
-        </div>
+    <div class="col-md-1">
 
     </div>
+
+    <div class="col-md-2">
+        <button style="border-radius: 15px; margin-top: 35px; margin-left: 15px; background-color: red; color: white;">Custom Feature</button>
+    </div>
+
+</div>
     
 
     <!-- Optional JavaScript -->
