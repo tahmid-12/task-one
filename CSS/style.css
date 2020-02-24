@@ -1,6 +1,7 @@
 /*index and page*/
 .digg{
   width: 100%;
+  height: 80px;
   border: 2px solid black;
   margin-top: 5px;
   box-sizing: border-box;
@@ -46,8 +47,8 @@
 
 /*Netflix card Box*/
 .box1{
-  width: 100%;
-  height: 650px;
+  width: 100%;/*
+  height: 650px;*/
   margin-top: 16px;
   border: 2px solid black;
   box-sizing: border-box;
@@ -58,8 +59,9 @@
   padding-top: 10px;
 }
 /*View All*/
-.view{
-  margin-left: 440px;
+.view{/*
+  margin-left: 440px;*/
+  float: right;
   margin-top: 10px;
 }
 
@@ -136,7 +138,7 @@
   margin-left: 10px;
   padding-bottom: 0px;
 }
-/*
+
 .nav-tabs{
    display: flex;
    flex-direction: row;
@@ -231,11 +233,142 @@
   box-sizing: border-box;
   margin-left: -1px;
 }
+
+/*Delivery.html page CSS*/
+.select-box{
+  width: 50%;
+  height: 120px;
+  border: 2px solid black;
+  margin-top: 25px;
+  margin-left: 220px;
+  border-radius: 25px;
+  box-sizing: border-box;
+    
+}
+.project-box{
+  width: 50%;
+  height: 120px;
+  border: 2px solid black;
+  margin-top: 25px;
+  margin-left: 30px;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.select-platform{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.selected{
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+/*Range Slider Start*/
+.slidecontainer {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  margin-left: 30px;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+/*Range Slider Finish*/
+.phase-box{
+  width: 85%;
+  height: 130px;
+  border: 2px solid black;
+  margin-top: 25px;
+  margin-left: 20px;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.small-box{
+  width: 101%;
+  height: 70px;
+  border: 1px solid black;
+  background-color: gainsboro;
+  margin-top: 0px;
+  margin-left: -1px;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.box-text{
+  font-size: 17px;
+  margin-top: 15px;
+}
+.fa-check-circle{
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.deliver-text{
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+/*Summary CSS*/
+.field{
+   width: 50%;
+   margin-left: 10px;
+}
+.complete{
+  border-radius: 20px; 
+  width: 300px; 
+  background-color: red; 
+  color: white; 
+  margin-left: 350px;
+}
+.summary-box{
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  box-sizing: border-box;/*
+  margin-top: 30px;*/
+  margin-left: 180px;
+}
+.summary-box-text{
+  font-weight: 700;
+}
+.small-box{
+  width: 340px;
+  height: 80px;
+  background-color: gainsboro;
+  border-radius: 0px;
+  border: 1px solid lightgrey;
+  margin-left: 25px;
+  margin-top: 7px;
+}
   /*Media Queries*/
 
 
   /*Mobile Device*/
-  @media (min-width: 480px){
+  @media only Screen and (max-width: 960px){
 
     .digg{
       width: 100%;
@@ -249,13 +382,13 @@
       margin-left: 1px;
       width: 100%;
     }
-  /*
+  
   .nav-tabs{
      display: flex;
      flex-direction: column;
      text-align: center;
   }
-   */
+   
 
    /*
   .box1{
@@ -266,15 +399,24 @@
   .header1{
     font-size: 20px;
     margin-right: 5px;
-  }/*
+  }
   .view{
-    margin-left: 25px;
-  }*/
+    float: none;
+  }
   .app{/*
     font-size: 10px;
     margin-right: 5px;*/
   }
 
+  /*Summary Page the 5th page Responsive Design*/
+   .complete{
+     margin-left: 90px;
+   }
+
+   .summary-box{
+     margin-top: 5px;
+     margin-left: -2px;
+   }
   }
 
   
