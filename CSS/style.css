@@ -157,7 +157,7 @@
   width: 700px;
 }
 .input-group-prepend{
-  margin-left: 340px; 
+  margin-left: 300px; 
 }
 .box3{
   width: 100%;/*
@@ -408,7 +408,24 @@
   .box2{
     margin-top: 5px;
   }
+
+  .box3{
+    height: 1850px;
+  }
   
+  .in{
+    width: 300px;
+    margin-left: 70px;
+  }
+
+  .in{
+    width: 200px;
+    padding-right: 90px;
+  }
+  .input-group-prepend{
+    margin-left: 70px;
+    padding-left: 10px; 
+  }
 
   .header1{
     font-size: 20px;
