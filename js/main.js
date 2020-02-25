@@ -1,8 +1,3 @@
-/*$(document).ready(function(){
-    $("#view").click(function(){
-        
-        
-            $("#netflix").show();
-
-    });
-});*/
+function myFunction(){
+    location.replace("page3.html")
+}

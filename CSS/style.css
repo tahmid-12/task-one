@@ -319,6 +319,9 @@
   border-radius: 25px;
   box-sizing: border-box;
 }
+.phase-box:hover{
+    border: 2px solid limegreen;
+}
 .project-box{
   width: 101%;
   height: 70px;
@@ -328,6 +331,9 @@
   margin-left: -1px;
   border-radius: 25px;
   box-sizing: border-box;
+}
+.project-box:hover{
+  background-color: limegreen;
 }
 .box-text{
   font-size: 17px;
