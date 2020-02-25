@@ -319,6 +319,7 @@
   border-radius: 25px;
   box-sizing: border-box;
 }
+/*Hover Effect*/
 .phase-box:hover{
     border: 2px solid limegreen;
 }
