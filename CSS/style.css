@@ -343,6 +343,9 @@
 .fa-check-circle{
    margin-top: 10px;
 }
+.fa-check-circle:hover{
+  color: lawngreen;
+}
 .deliver-text{
   font-size: 10px;
   margin-right: 20px;
@@ -423,6 +426,37 @@
   .in{
     width: 300px;
     margin-left: 70px;
+  }
+
+  /*Page3 CSS*/
+
+  .box4{
+    height: 200px;
+  }
+
+  .features-2-remove{
+    margin-left: 20px;
+  }
+
+  .remove{
+    margin-left: 50px;
+  }
+
+  .dashboard{
+    width: 85px;
+    height: 300px;
+  }
+
+  .card{
+    margin-top: -20px;
+    width: 400px;
+    height: 110px;
+    text-align: center;
+  }
+
+  .box5{
+    height: 750px;
+    width: 400px;
   }
 
   .in{
